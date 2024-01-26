@@ -1,0 +1,230 @@
+body {
+    background-color: #d9d9d9;
+    color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-color: #d9d9d9;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    border: 2px solid green;
+}
+
+
+.container1 {
+    margin: 0px 200px 0px 250px;
+    background-color: #d9d9d9;
+    color: black;
+    padding: 12px;
+
+    border: 2px solid green;
+}
+
+b {
+
+    color: blue;
+}
+
+i {
+
+    color: green;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    border: 3px solid #b3efa0;
+    overflow: auto;
+    background-color: #4b0101;
+    border-radius: 12px;
+    position: sticky;
+    top: 1px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px 0px 0px;
+
+}
+
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 25px;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+
+
+
+}
+
+
+ul li a:hover {
+    color: red;
+
+
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#searchTxt {
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.navbtn {
+
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+
+}
+
+.navbtn:hover {
+
+    background-color: black;
+    color: white;
+
+
+}
+
+#container {
+    width: 800px;
+    height: 1200px;
+    margin: 15px auto;
+    background-color: #c1e7bc;
+    height: 1000px;
+    padding: 0.5px 60px 0px 60px;
+    border: 2px solid rgb(200 139 200);
+    border-radius: 7px;
+}
+
+.btn-primary {
+    border: 2px solid blue;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+
+
+}
+
+#addbtn {
+
+    border: 2px solid blue;
+    border-radius: 7px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-top: 14px;
+
+
+
+}
+
+#addbtn:hover {
+
+    background-color: black;
+    color: white;
+
+
+}
+
+textarea {
+    border: 1px solid black;
+    outline: none;
+
+}
+
+
+
+
+.name {
+    padding: 5px;
+    margin: 5px 0px 0px 80px;
+    width: 500px;
+    border-radius: 6px;
+    border: 1px solid black;
+    outline: none;
+}
+
+#name {
+
+    margin: 0px 0px 0px 84px;
+
+}
+
+.input {
+    margin: 7px 0px;
+
+}
+
+.radiobtn {
+    margin: 0px 0px 0px 120px;
+
+}
+
+form {
+    margin: 40px 0px 0px 0px;
+}
+
+.main {
+
+    margin: 50px 0px 0px 0px;
+
+}
+
+table {
+    margin: 30px auto;
+
+
+}
+
+tr>th,
+td {
+    border: 3px solid red;
+
+    padding: 10px;
+    width: 500px;
+
+}
