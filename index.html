@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Project 2- Building a College Library Website</title>
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<header>
+<nav>
+
+<div class="left">
+
+<h3>Nasir Library</h3>
+
+
+<div >
+   <ul>
+       <li><a href="#" class="acommon">Home</a></li>
+      
+   </ul>
+</div>
+</div>
+<div class="right">
+
+<input type="text" name="search" id="searchTxt" placeholder="Search This Website">
+<button class="navbtn">Search</button>
+</div>
+
+</nav>
+</header>
+
+<div id="container">
+<div class="main">
+<h1>Nasir Potter Library</h1>
+<hr>
+
+<form id="libraryForm">
+<div class="input">
+<lable for="name">Name</lable>
+<input type="text" placeholder="Enter Name"  id="bookName" class="name">
+</div>
+<div class=input>
+<lable for="author">Author</lable>
+<input type="text" placeholder="Authorr Name"  id="author" class="author name">
+</div>
+
+<legend>Type</ledend>
+
+<div class="radiobtn" >
+
+<div>
+<input type="radio" name="type"  id="programming" class="Computer Programming" value="Computer Programming">
+<lable for="Computer Programming">Computer Programming</lable>
+</div>
+
+<div>
+<input type="radio" name="type"  id="Fiction" class="Fiction" value="Fiction">
+<lable for="Fiction">Fiction</lable>
+</div>
+
+<div>
+<input type="radio" name="type"  id="Cooking" class="Cooking" value="Cooking">
+<lable for="Cooking">Cooking</lable>
+</div>
+
+</div>
+<div>
+<button type="submit" id="addbtn">Add Book</button>
+</div>
+</form>
+</div>
+<h1>Your Books</h1>
+<hr>
+
+<table>
+   <thead>
+ 
+         <tr>  
+            
+            <th>Book Name</th>
+            <th>Book Author</th>
+            <th>Book Type</th>
+            
+         </tr>
+
+   </thead>
+
+<tbody id="tbody">
+
+
+</tbody>  
+         
+</table>
+</body>
+
+<script src="index.js"></script>
+</html>
